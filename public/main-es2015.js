@@ -868,7 +868,7 @@ const httpOptions = {
 let ApiService = class ApiService {
     constructor(httpClient) {
         this.httpClient = httpClient;
-        this.API_URL = 'https://book-api-rail-ticket-dev.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud';
+        this.API_URL = 'http://istio-ingressgateway-openshift.sandbox-ocp43-one-621532-a39cdf59c11fe9ef74002319618f3999-0000.eu-gb.containers.appdomain.cloud';
     }
     saveBookingData(bookingData) {
         return this.httpClient.post(`${this.API_URL}/manageBooking/bookTickets?`
@@ -1006,7 +1006,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\book-ui\client\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\ibm hack\book-ui\client\src\main.ts */"./src/main.ts");
 
 
 /***/ })

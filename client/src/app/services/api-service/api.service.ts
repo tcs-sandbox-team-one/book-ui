@@ -12,7 +12,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ApiService {
-  API_URL = 'https://book-api-rail-ticket-dev.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud';
+  API_URL = 'http://istio-ingressgateway-openshift.sandbox-ocp43-one-621532-a39cdf59c11fe9ef74002319618f3999-0000.eu-gb.containers.appdomain.cloud';
   constructor(private httpClient: HttpClient) { }
 
   saveBookingData(bookingData: BookingData) {

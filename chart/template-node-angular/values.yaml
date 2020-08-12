@@ -40,8 +40,6 @@ vcsInfo:
   repoUrl: ""
   branch: ""
 
-partOf: "rail-ticket-dev"
-
-connectsTo: "book-api"
+partOf: "frontend"
 
 runtime: nodejs
