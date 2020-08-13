@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { ApiService } from './services/api-service/api.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxUiLoaderModule, NgxUiLoaderConfig } from 'ngx-ui-loader';
+import { TrainListComponent } from './pages/train-list/train-list.component';
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
 
@@ -53,7 +54,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    TrainListComponent
   ],
   imports: [
     BrowserModule,

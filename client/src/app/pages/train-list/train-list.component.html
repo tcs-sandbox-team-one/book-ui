@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row home-row">
+        <div class="col-8 body-info">
+            <h1>List of Trains</h1>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Source</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Type</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let train of trainListData">
+                    <td>{{train.source}}</td>
+                    <td>{{train.destination}}</td>
+                    <td>{{train.type}}</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4">
+            <img class="landing-image" alt="Train Image 1" src="assets/img/travel.svg" />
+        </div>
+    </div>
+    <app-footer></app-footer>    
+</div>

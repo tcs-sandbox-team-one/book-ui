@@ -39,6 +39,12 @@ export class ApiService {
   getPnrStatus(bookingId: string) {
     return this.httpClient.get(`${this.API_URL}/pnrInquiry/getPNRStatus?`
     + `bookingId=` + bookingId
-    , httpOptions);
+    , 
+    httpOptions);
+  }
+
+  getTrainListData() {
+    return this.httpClient.get(`${this.API_URL}/getAllTrains`, 
+    httpOptions);
   }
 }

@@ -35,7 +35,7 @@
 }
 
 .options-toolbar {
-    width: 21.25rem;
+    width:35%;
 }
 
 .options-toolbar a {
@@ -131,4 +131,8 @@ label {
     color:#4d4d4d;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.align-center{
+    text-align:center;
 }

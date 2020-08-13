@@ -5,7 +5,7 @@
     </a>
     <div class="spacer"></div>
     <div class="row options-toolbar">
-        <div class="col-6 col-md-6">
+        <div class="col-4 col-md-4">
             <span  dropdown>
                 <a href id="basic-link" class="animate-up" dropdownToggle (click)="false" aria-controls="basic-link-dropdown">
                     Manage Booking
@@ -18,10 +18,13 @@
             </span>
             
         </div>
-        <div class="col-6 col-md-6">
+        <div class="col-4 col-md-4 align-center">
             <button id="pnrStatusItem" #pnrStatusItem class="animate-up btn btn-link" (click)="doOperation(pnrStatusItem)">
                 PNR Status
             </button>         
+        </div>
+        <div class="col-4 col-md-4 align-center">
+            <a id="pnrStatusItem" class="animate-up btn btn-link" routerLink="/train-list">Train List</a>    
         </div>
     </div>
     <div class="spacer"></div>

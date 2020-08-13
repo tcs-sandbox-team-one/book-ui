@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-header></app-header>\r\n<div class=\"home-body\">\r\n    <router-outlet></router-outlet>\r\n</div>\r\n<ngx-ui-loader></ngx-ui-loader>\r\n";
+    __webpack_exports__["default"] = "<app-header></app-header>\n<div class=\"home-body\">\n    <router-outlet></router-outlet>\n</div>\n<ngx-ui-loader></ngx-ui-loader>\n";
     /***/
   },
 
@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n    <hr class=\"footer-line\"/>\r\n    <div class=\"row\">\r\n        <div class=\"col-12 col-md-12 text-center pb-1\"><em>This demo application is intended for internal purpose only. Images & icons created by freepik - www.freepik.com</em></div>\r\n    </div>\r\n</div>\r\n\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <hr class=\"footer-line\"/>\n    <div class=\"row\">\n        <div class=\"col-12 col-md-12 text-center pb-1\"><em>This demo application is intended for internal purpose only. Images & icons created by freepik - www.freepik.com</em></div>\n    </div>\n</div>\n\n";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"header-toolbar\">\r\n    <a class=\"title-toolbar\" routerLink=\"/home\">\r\n        <img class=\"mr-2\" width=\"40\" alt=\"Logo\" src=\"assets/img/logo.svg\" />\r\n        RHOS-Railway-Reservation\r\n    </a>\r\n    <div class=\"spacer\"></div>\r\n    <div class=\"row options-toolbar\">\r\n        <div class=\"col-6 col-md-6\">\r\n            <span  dropdown>\r\n                <a href id=\"basic-link\" class=\"animate-up\" dropdownToggle (click)=\"false\" aria-controls=\"basic-link-dropdown\">\r\n                    Manage Booking\r\n                </a>\r\n                <ul id=\"basic-link-dropdown\" *dropdownMenu class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"basic-link\">\r\n                    <li role=\"menuitem\"><button id=\"bookTicketItem\" #bookTicketItem class=\"dropdown-item\" (click)=\"doOperation(bookTicketItem)\">Book Ticket</button>\r\n                    <li class=\"divider dropdown-divider\"></li>\r\n                    <li role=\"menuitem\"><button id=\"cancelTicketItem\" #cancelTicketItem class=\"dropdown-item\" (click)=\"doOperation(cancelTicketItem)\">Cancel Ticket</button>\r\n                </ul>\r\n            </span>\r\n            \r\n        </div>\r\n        <div class=\"col-6 col-md-6\">\r\n            <button id=\"pnrStatusItem\" #pnrStatusItem class=\"animate-up btn btn-link\" (click)=\"doOperation(pnrStatusItem)\">\r\n                PNR Status\r\n            </button>         \r\n        </div>\r\n    </div>\r\n    <div class=\"spacer\"></div>\r\n    <a aria-label=\"RHOS-Reservation-App-Twitter\" target=\"_blank\" rel=\"noopener\" href=\"https://twitter.com\"\r\n        title=\"Twitter\">\r\n        <svg id=\"twitter-logo\" height=\"24\" data-name=\"Logo — FIXED\" xmlns=\"http://www.w3.org/2000/svg\"\r\n            viewBox=\"0 0 400 400\">\r\n            <defs>\r\n                <style>\r\n                    .cls-1 {\r\n                        fill: none;\r\n                    }\r\n\r\n                    .cls-2 {\r\n                        fill: #269cc7;\r\n                    }\r\n                </style>\r\n            </defs>\r\n            <rect class=\"cls-1\" width=\"400\" height=\"400\" />\r\n            <path class=\"cls-2\"\r\n                d=\"M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23\" />\r\n        </svg>\r\n\r\n    </a>\r\n</div>";
+    __webpack_exports__["default"] = "<div class=\"header-toolbar\">\n    <a class=\"title-toolbar\" routerLink=\"/home\">\n        <img class=\"mr-2\" width=\"40\" alt=\"Logo\" src=\"assets/img/logo.svg\" />\n        RHOS-Railway-Reservation\n    </a>\n    <div class=\"spacer\"></div>\n    <div class=\"row options-toolbar\">\n        <div class=\"col-4 col-md-4\">\n            <span  dropdown>\n                <a href id=\"basic-link\" class=\"animate-up\" dropdownToggle (click)=\"false\" aria-controls=\"basic-link-dropdown\">\n                    Manage Booking\n                </a>\n                <ul id=\"basic-link-dropdown\" *dropdownMenu class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"basic-link\">\n                    <li role=\"menuitem\"><button id=\"bookTicketItem\" #bookTicketItem class=\"dropdown-item\" (click)=\"doOperation(bookTicketItem)\">Book Ticket</button>\n                    <li class=\"divider dropdown-divider\"></li>\n                    <li role=\"menuitem\"><button id=\"cancelTicketItem\" #cancelTicketItem class=\"dropdown-item\" (click)=\"doOperation(cancelTicketItem)\">Cancel Ticket</button>\n                </ul>\n            </span>\n            \n        </div>\n        <div class=\"col-4 col-md-4 align-center\">\n            <button id=\"pnrStatusItem\" #pnrStatusItem class=\"animate-up btn btn-link\" (click)=\"doOperation(pnrStatusItem)\">\n                PNR Status\n            </button>         \n        </div>\n        <div class=\"col-4 col-md-4 align-center\">\n            <a id=\"pnrStatusItem\" class=\"animate-up btn btn-link\" routerLink=\"/train-list\">Train List</a>    \n        </div>\n    </div>\n    <div class=\"spacer\"></div>\n    <a aria-label=\"RHOS-Reservation-App-Twitter\" target=\"_blank\" rel=\"noopener\" href=\"https://twitter.com\"\n        title=\"Twitter\">\n        <svg id=\"twitter-logo\" height=\"24\" data-name=\"Logo — FIXED\" xmlns=\"http://www.w3.org/2000/svg\"\n            viewBox=\"0 0 400 400\">\n            <defs>\n                <style>\n                    .cls-1 {\n                        fill: none;\n                    }\n\n                    .cls-2 {\n                        fill: #269cc7;\n                    }\n                </style>\n            </defs>\n            <rect class=\"cls-1\" width=\"400\" height=\"400\" />\n            <path class=\"cls-2\"\n                d=\"M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23\" />\n        </svg>\n\n    </a>\n</div>";
     /***/
   },
 
@@ -111,7 +111,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n    <div class=\"row home-row\">\r\n        <div class=\"col-8 body-info\">\r\n            <h1>Book your destination right now.</h1>\r\n            <p>A one stop to manage your destination travels.</p>\r\n            <button id=\"book-ticket-btn\" class=\"btn btn-info action-button\" type=\"button\" \r\n            (click)=\"openModal(operationModal,'bookTicketItem')\">Book Ticket</button>\r\n        </div>\r\n        <div class=\"col-4\">\r\n            <img class=\"landing-image\" alt=\"Train Image 1\" src=\"assets/img/travel.svg\" />\r\n        </div>\r\n    </div>\r\n    <app-footer></app-footer>    \r\n</div>\r\n<ng-template #operationModal>\r\n    <div [ngSwitch]=\"eventMessage\">\r\n        <div *ngSwitchCase=\"'cancelTicketItem'\">\r\n            <div class=\"modal-header\">\r\n                <h5 class=\"modal-title pull-left\">Cancel Ticket</h5>\r\n                <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\r\n                <span aria-hidden=\"true\">&times;</span>\r\n                </button>\r\n            </div>\r\n            <div class=\"modal-body\">\r\n                <form *ngIf=\"bookingData\">\r\n                    <div *ngIf=\"alertMessage\" class=\"alert alert-danger\" role=\"alert\">\r\n                       {{ alertMessage }}.\r\n                    </div>\r\n                    <fieldset>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-12\">\r\n                                <div class=\"input-group\">\r\n                                    <input class=\"form-control custom-input\" type=\"text\"  name=\"bookingId\" [(ngModel)]=\"bookingData.bookingId\" required placeholder=\"PNR Number\">\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </fieldset>\r\n                    <input class=\"form-control btn btn-primary btn-sm\" type=\"submit\"  name=\"submit\" (click) =\"cancelTicket(bookingData)\" value=\"Cancel Ticket\">\r\n                </form>\r\n            </div>\r\n        </div>\r\n        <div *ngSwitchCase=\"'pnrStatusItem'\">\r\n            <div class=\"modal-header\">\r\n                <h5 class=\"modal-title pull-left\">Get PNR Status</h5>\r\n                <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\r\n                <span aria-hidden=\"true\">&times;</span>\r\n                </button>\r\n            </div>\r\n            <div class=\"modal-body\">\r\n                <form *ngIf=\"bookingData\">\r\n                    <div *ngIf=\"alertMessage\" class=\"alert alert-danger\" role=\"alert\">\r\n                        {{ alertMessage }}.\r\n                    </div>\r\n                    <fieldset>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-12\">\r\n                                <div class=\"input-group\">\r\n                                    <input class=\"form-control custom-input\" type=\"text\"  name=\"bookingId\" [(ngModel)]=\"bookingData.bookingId\" required placeholder=\"PNR Number\">\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </fieldset>\r\n                    <input class=\"form-control btn btn-primary btn-sm\" type=\"submit\"  name=\"submit\" (click) =\"getPnrStatus(bookingData)\" value=\"Get Status\">\r\n                </form>\r\n            </div>\r\n        </div>\r\n        <div *ngSwitchDefault>\r\n            <div class=\"modal-header\">\r\n                <h5 class=\"modal-title pull-left\">Book Ticket</h5>\r\n                <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\r\n                <span aria-hidden=\"true\">&times;</span>\r\n                </button>\r\n            </div>\r\n            <div class=\"modal-body\">\r\n                <form *ngIf=\"bookingData\">\r\n                    <div *ngIf=\"alertMessage\" class=\"alert alert-danger\" role=\"alert\">\r\n                        {{ alertMessage }}.\r\n                    </div>\r\n                    <div *ngIf=\"bookingData.fromStation && bookingData.toStation && bookingData.fromStation === bookingData.toStation\" class=\"alert alert-danger\" role=\"alert\">\r\n                        Journey from and to cannot be the same.\r\n                    </div>\r\n                    <fieldset>\r\n                        <legend class=\"custom-legend\">Journey Details:</legend>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-6\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">From</label>\r\n                                    <select [(ngModel)]=\"bookingData.fromStation\" class=\"form-control custom-input\" id=\"From station\" name=\"fromStation\" required>\r\n                                        <option disabled value>From Station</option>\r\n                                        <option *ngFor=\"let station of rawData.stations\" [ngValue]=\"station\">{{station}}</option>\r\n                                    </select>\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-6\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">To</label>\r\n                                    <select [(ngModel)]=\"bookingData.toStation\" class=\"form-control custom-input\" id=\"To station\" name=\"toStation\" required>\r\n                                        <option disabled value>To Station</option>\r\n                                        <option *ngFor=\"let station of rawData.stations\" [ngValue]=\"station\">{{station}}</option>\r\n                                    </select>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-12\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">Available Trains</label>\r\n                                    <select [disabled]=\"!((bookingData.fromStation && bookingData.toStation) && (bookingData.fromStation !== bookingData.toStation))\" class=\"form-control custom-input\" id=\"selectedTrain\" name=\"selectedTrain\" required [(ngModel)]=\"bookingData.selectedTrain\">\r\n                                        <option disabled value>Available Trains</option>\r\n                                        <option *ngFor=\"let trainType of rawData.trainTypeList\" [ngValue]=\"trainType\">{{ bookingData.fromStation }} - {{ bookingData.toStation }} {{trainType}}</option>\r\n                                    </select>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-6\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">Journey date</label>\r\n                                    <input type=\"text\" placeholder=\"Journey date\" name=\"journeyDate\" [(ngModel)]=\"bookingData.journeyDate\" onfocus=\"this.value=''\" class=\"form-control custom-input\" bsDatepicker>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </fieldset>\r\n                    <hr />\r\n                    <fieldset>\r\n                        <legend class=\"custom-legend\">Personal Details:</legend>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-6\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">First Name</label>\r\n                                    <input class=\"form-control custom-input\" type=\"text\" name=\"firstName\" [(ngModel)]=\"bookingData.firstName\" required placeholder=\"First Name\">\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-6\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">Last Name</label>\r\n                                    <input class=\"form-control custom-input\" type=\"text\"  name=\"lastName\" [(ngModel)]=\"bookingData.lastName\" required placeholder=\"Last Name\">\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"row mb-2\">\r\n                            <div class=\"col-12\">\r\n                                <div class=\"input-group\">\r\n                                    <label class=\"sr-only\">Email</label>\r\n                                    <input class=\"form-control custom-input\" type=\"email\" name=\"email\" [(ngModel)]=\"bookingData.email\" required placeholder=\"Email\">\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </fieldset>\r\n                    <input class=\"form-control btn btn-primary btn-sm\" type=\"submit\"  name=\"submit\" (click) =\"bookTicket(bookingData)\" value=\"Book My Ticket\">\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>        \r\n</ng-template>\r\n<ng-template #resultModal>\r\n    <div class=\"modal-body text-center\">\r\n        <div *ngIf=\"!errorFlag; else failureMessage\">\r\n            <div [ngSwitch]=\"eventMessage\">\r\n                <div *ngSwitchCase=\"'pnrStatusItem'\">\r\n                    <h4>PNR Status</h4>\r\n                    <hr />\r\n                    <p>Status : {{ bookingData.pnrStatus }}</p>\r\n                </div>\r\n                <div *ngSwitchCase=\"'cancelTicketItem'\">\r\n                    <h4>Cancelled</h4>\r\n                    <hr />\r\n                    <p>Your ticket has been cancelled successfully.</p>\r\n                </div>\r\n                <div *ngSwitchDefault>\r\n                    <h4>Confirmed</h4>\r\n                    <hr />\r\n                    <p>Your ticket has been booked successfully.</p>\r\n                    <div>\r\n                        <p><strong>Ticket No : {{ bookingData.ticketNo }}</strong></p>\r\n                        <p><strong>PNR No : {{ bookingData.bookingId }}</strong></p>\r\n                        <p><strong>PNR Status : {{ bookingData.pnrStatus }}</strong></p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <ng-template #failureMessage>\r\n            <div [ngSwitch]=\"eventMessage\">\r\n                <div *ngSwitchCase=\"'pnrStatusItem'\">\r\n                    <h4>{{ resultMessage ? resultMessage : 'Failed' }}</h4>\r\n                    <hr />\r\n                    <p>Please Try again.</p>\r\n                </div>\r\n                <div *ngSwitchCase=\"'cancelTicketItem'\">\r\n                    <h4>{{ resultMessage ? resultMessage : 'Cancellation Failed' }}</h4>\r\n                    <hr />\r\n                    <p>Please Try again.</p>\r\n                </div>\r\n                <div *ngSwitchDefault>\r\n                    <h4>Booking Failed</h4>\r\n                    <hr />\r\n                    <p>Please Try again.</p>\r\n                </div>\r\n            </div>\r\n        </ng-template>\r\n        <button [ngClass]=\"{'form-control': true, 'btn': true, 'btn-success': !errorFlag, 'btn-danger': errorFlag }\" \r\n        (click)=\"closeModal()\"><span>Close</span></button>\r\n    </div>\r\n</ng-template>\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <div class=\"row home-row\">\n        <div class=\"col-8 body-info\">\n            <h1>Book your destination right now.</h1>\n            <p>A one stop to manage your destination travels.</p>\n            <button id=\"book-ticket-btn\" class=\"btn btn-info action-button\" type=\"button\" \n            (click)=\"openModal(operationModal,'bookTicketItem')\">Book Ticket</button>\n        </div>\n        <div class=\"col-4\">\n            <img class=\"landing-image\" alt=\"Train Image 1\" src=\"assets/img/travel.svg\" />\n        </div>\n    </div>\n    <app-footer></app-footer>    \n</div>\n<ng-template #operationModal>\n    <div [ngSwitch]=\"eventMessage\">\n        <div *ngSwitchCase=\"'cancelTicketItem'\">\n            <div class=\"modal-header\">\n                <h5 class=\"modal-title pull-left\">Cancel Ticket</h5>\n                <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\n                <span aria-hidden=\"true\">&times;</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <form *ngIf=\"bookingData\">\n                    <div *ngIf=\"alertMessage\" class=\"alert alert-danger\" role=\"alert\">\n                       {{ alertMessage }}.\n                    </div>\n                    <fieldset>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-12\">\n                                <div class=\"input-group\">\n                                    <input class=\"form-control custom-input\" type=\"text\"  name=\"bookingId\" [(ngModel)]=\"bookingData.bookingId\" required placeholder=\"PNR Number\">\n                                </div>\n                            </div>\n                        </div>\n                    </fieldset>\n                    <input class=\"form-control btn btn-primary btn-sm\" type=\"submit\"  name=\"submit\" (click) =\"cancelTicket(bookingData)\" value=\"Cancel Ticket\">\n                </form>\n            </div>\n        </div>\n        <div *ngSwitchCase=\"'pnrStatusItem'\">\n            <div class=\"modal-header\">\n                <h5 class=\"modal-title pull-left\">Get PNR Status</h5>\n                <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\n                <span aria-hidden=\"true\">&times;</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <form *ngIf=\"bookingData\">\n                    <div *ngIf=\"alertMessage\" class=\"alert alert-danger\" role=\"alert\">\n                        {{ alertMessage }}.\n                    </div>\n                    <fieldset>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-12\">\n                                <div class=\"input-group\">\n                                    <input class=\"form-control custom-input\" type=\"text\"  name=\"bookingId\" [(ngModel)]=\"bookingData.bookingId\" required placeholder=\"PNR Number\">\n                                </div>\n                            </div>\n                        </div>\n                    </fieldset>\n                    <input class=\"form-control btn btn-primary btn-sm\" type=\"submit\"  name=\"submit\" (click) =\"getPnrStatus(bookingData)\" value=\"Get Status\">\n                </form>\n            </div>\n        </div>\n        <div *ngSwitchDefault>\n            <div class=\"modal-header\">\n                <h5 class=\"modal-title pull-left\">Book Ticket</h5>\n                <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\n                <span aria-hidden=\"true\">&times;</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <form *ngIf=\"bookingData\">\n                    <div *ngIf=\"alertMessage\" class=\"alert alert-danger\" role=\"alert\">\n                        {{ alertMessage }}.\n                    </div>\n                    <div *ngIf=\"bookingData.fromStation && bookingData.toStation && bookingData.fromStation === bookingData.toStation\" class=\"alert alert-danger\" role=\"alert\">\n                        Journey from and to cannot be the same.\n                    </div>\n                    <fieldset>\n                        <legend class=\"custom-legend\">Journey Details:</legend>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-6\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">From</label>\n                                    <select [(ngModel)]=\"bookingData.fromStation\" class=\"form-control custom-input\" id=\"From station\" name=\"fromStation\" required>\n                                        <option disabled value>From Station</option>\n                                        <option *ngFor=\"let station of rawData.stations\" [ngValue]=\"station\">{{station}}</option>\n                                    </select>\n                                </div>\n                            </div>\n                            <div class=\"col-6\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">To</label>\n                                    <select [(ngModel)]=\"bookingData.toStation\" class=\"form-control custom-input\" id=\"To station\" name=\"toStation\" required>\n                                        <option disabled value>To Station</option>\n                                        <option *ngFor=\"let station of rawData.stations\" [ngValue]=\"station\">{{station}}</option>\n                                    </select>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-12\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">Available Trains</label>\n                                    <select [disabled]=\"!((bookingData.fromStation && bookingData.toStation) && (bookingData.fromStation !== bookingData.toStation))\" class=\"form-control custom-input\" id=\"selectedTrain\" name=\"selectedTrain\" required [(ngModel)]=\"bookingData.selectedTrain\">\n                                        <option disabled value>Available Trains</option>\n                                        <option *ngFor=\"let trainType of rawData.trainTypeList\" [ngValue]=\"trainType\">{{ bookingData.fromStation }} - {{ bookingData.toStation }} {{trainType}}</option>\n                                    </select>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-6\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">Journey date</label>\n                                    <input type=\"text\" placeholder=\"Journey date\" name=\"journeyDate\" [(ngModel)]=\"bookingData.journeyDate\" onfocus=\"this.value=''\" class=\"form-control custom-input\" bsDatepicker>\n                                </div>\n                            </div>\n                        </div>\n                    </fieldset>\n                    <hr />\n                    <fieldset>\n                        <legend class=\"custom-legend\">Personal Details:</legend>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-6\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">First Name</label>\n                                    <input class=\"form-control custom-input\" type=\"text\" name=\"firstName\" [(ngModel)]=\"bookingData.firstName\" required placeholder=\"First Name\">\n                                </div>\n                            </div>\n                            <div class=\"col-6\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">Last Name</label>\n                                    <input class=\"form-control custom-input\" type=\"text\"  name=\"lastName\" [(ngModel)]=\"bookingData.lastName\" required placeholder=\"Last Name\">\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row mb-2\">\n                            <div class=\"col-12\">\n                                <div class=\"input-group\">\n                                    <label class=\"sr-only\">Email</label>\n                                    <input class=\"form-control custom-input\" type=\"email\" name=\"email\" [(ngModel)]=\"bookingData.email\" required placeholder=\"Email\">\n                                </div>\n                            </div>\n                        </div>\n                    </fieldset>\n                    <input class=\"form-control btn btn-primary btn-sm\" type=\"submit\"  name=\"submit\" (click) =\"bookTicket(bookingData)\" value=\"Book My Ticket\">\n                </form>\n            </div>\n        </div>\n    </div>        \n</ng-template>\n<ng-template #resultModal>\n    <div class=\"modal-body text-center\">\n        <div *ngIf=\"!errorFlag; else failureMessage\">\n            <div [ngSwitch]=\"eventMessage\">\n                <div *ngSwitchCase=\"'pnrStatusItem'\">\n                    <h4>PNR Status</h4>\n                    <hr />\n                    <p>Status : {{ bookingData.pnrStatus }}</p>\n                </div>\n                <div *ngSwitchCase=\"'cancelTicketItem'\">\n                    <h4>Cancelled</h4>\n                    <hr />\n                    <p>Your ticket has been cancelled successfully.</p>\n                </div>\n                <div *ngSwitchDefault>\n                    <h4>Confirmed</h4>\n                    <hr />\n                    <p>Your ticket has been booked successfully.</p>\n                    <div>\n                        <p><strong>Ticket No : {{ bookingData.ticketNo }}</strong></p>\n                        <p><strong>PNR No : {{ bookingData.bookingId }}</strong></p>\n                        <p><strong>PNR Status : {{ bookingData.pnrStatus }}</strong></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <ng-template #failureMessage>\n            <div [ngSwitch]=\"eventMessage\">\n                <div *ngSwitchCase=\"'pnrStatusItem'\">\n                    <h4>{{ resultMessage ? resultMessage : 'Failed' }}</h4>\n                    <hr />\n                    <p>Please Try again.</p>\n                </div>\n                <div *ngSwitchCase=\"'cancelTicketItem'\">\n                    <h4>{{ resultMessage ? resultMessage : 'Cancellation Failed' }}</h4>\n                    <hr />\n                    <p>Please Try again.</p>\n                </div>\n                <div *ngSwitchDefault>\n                    <h4>Booking Failed</h4>\n                    <hr />\n                    <p>Please Try again.</p>\n                </div>\n            </div>\n        </ng-template>\n        <button [ngClass]=\"{'form-control': true, 'btn': true, 'btn-success': !errorFlag, 'btn-danger': errorFlag }\" \n        (click)=\"closeModal()\"><span>Close</span></button>\n    </div>\n</ng-template>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/train-list/train-list.component.html":
+  /*!**************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/train-list/train-list.component.html ***!
+    \**************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppPagesTrainListTrainListComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <div class=\"row home-row\">\n        <div class=\"col-8 body-info\">\n            <h1>List of Trains</h1>\n            <table class=\"table\">\n                <thead>\n                  <tr>\n                    <th scope=\"col\">Source</th>\n                    <th scope=\"col\">Destination</th>\n                    <th scope=\"col\">Type</th>\n                  </tr>\n                </thead>\n                <tbody>\n                  <tr *ngFor=\"let train of trainListData\">\n                    <td>{{train.source}}</td>\n                    <td>{{train.destination}}</td>\n                    <td>{{train.type}}</td>\n                  </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col-4\">\n            <img class=\"landing-image\" alt=\"Train Image 1\" src=\"assets/img/travel.svg\" />\n        </div>\n    </div>\n    <app-footer></app-footer>    \n</div>";
     /***/
   },
 
@@ -701,19 +721,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _pages_train_list_train_list_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./pages/train-list/train-list.component */
+    "./src/app/pages/train-list/train-list.component.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
     /* harmony import */
 
 
-    var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./pages/home/home.component */
     "./src/app/pages/home/home.component.ts");
 
@@ -723,7 +749,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       pathMatch: 'full'
     }, {
       path: 'home',
-      component: _pages_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
+      component: _pages_home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"]
+    }, {
+      path: 'train-list',
+      component: _pages_train_list_train_list_component__WEBPACK_IMPORTED_MODULE_1__["TrainListComponent"]
     }, {
       path: '**',
       redirectTo: '/home',
@@ -734,11 +763,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, AppRoutingModule);
     };
 
-    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, {
+    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes, {
         useHash: true
       })],
-      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]]
     })], AppRoutingModule);
     /***/
   },
@@ -934,6 +963,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ngx_ui_loader__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ngx-ui-loader */
     "./node_modules/ngx-ui-loader/fesm2015/ngx-ui-loader.js");
+    /* harmony import */
+
+
+    var _pages_train_list_train_list_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./pages/train-list/train-list.component */
+    "./src/app/pages/train-list/train-list.component.ts");
 
     var ngxUiLoaderConfig = {
       bgsColor: '#36b7dd',
@@ -970,7 +1005,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _common_header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"], _pages_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _common_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _common_header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"], _pages_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _common_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"], _pages_train_list_train_list_component__WEBPACK_IMPORTED_MODULE_17__["TrainListComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_13__["FormsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_15__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"], ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_9__["BsDropdownModule"].forRoot(), ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_10__["ModalModule"].forRoot(), ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_12__["BsDatepickerModule"].forRoot(), ngx_ui_loader__WEBPACK_IMPORTED_MODULE_16__["NgxUiLoaderModule"].forRoot(ngxUiLoaderConfig)],
       providers: [_services_data_service_data_service__WEBPACK_IMPORTED_MODULE_11__["DataService"], _services_api_service_api_service__WEBPACK_IMPORTED_MODULE_14__["ApiService"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -1526,6 +1561,120 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/pages/train-list/train-list.component.css":
+  /*!***********************************************************!*\
+    !*** ./src/app/pages/train-list/train-list.component.css ***!
+    \***********************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppPagesTrainListTrainListComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3RyYWluLWxpc3QvdHJhaW4tbGlzdC5jb21wb25lbnQuY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/pages/train-list/train-list.component.ts":
+  /*!**********************************************************!*\
+    !*** ./src/app/pages/train-list/train-list.component.ts ***!
+    \**********************************************************/
+
+  /*! exports provided: TrainListComponent */
+
+  /***/
+  function srcAppPagesTrainListTrainListComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TrainListComponent", function () {
+      return TrainListComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var src_app_services_api_service_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! src/app/services/api-service/api.service */
+    "./src/app/services/api-service/api.service.ts");
+    /* harmony import */
+
+
+    var ngx_ui_loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ngx-ui-loader */
+    "./node_modules/ngx-ui-loader/fesm2015/ngx-ui-loader.js");
+
+    var TrainListComponent = /*#__PURE__*/function () {
+      function TrainListComponent(apiService, ngxService) {
+        _classCallCheck(this, TrainListComponent);
+
+        this.apiService = apiService;
+        this.ngxService = ngxService;
+        this.trainListData = [];
+      }
+
+      _createClass(TrainListComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.getTrainList();
+        }
+      }, {
+        key: "getTrainList",
+        value: function getTrainList() {
+          var _this6 = this;
+
+          this.apiService.getTrainListData().subscribe(function (data) {
+            _this6.trainListData = data;
+          }, function (error) {
+            console.log(error);
+          });
+        }
+      }]);
+
+      return TrainListComponent;
+    }();
+
+    TrainListComponent.ctorParameters = function () {
+      return [{
+        type: src_app_services_api_service_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"]
+      }, {
+        type: ngx_ui_loader__WEBPACK_IMPORTED_MODULE_3__["NgxUiLoaderService"]
+      }];
+    };
+
+    TrainListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-train-list',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./train-list.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/train-list/train-list.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./train-list.component.css */
+      "./src/app/pages/train-list/train-list.component.css"))["default"]]
+    })], TrainListComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/services/api-service/api.service.ts":
   /*!*****************************************************!*\
     !*** ./src/app/services/api-service/api.service.ts ***!
@@ -1593,6 +1742,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "getPnrStatus",
         value: function getPnrStatus(bookingId) {
           return this.httpClient.get("".concat(this.API_URL, "/pnrInquiry/getPNRStatus?") + "bookingId=" + bookingId, httpOptions);
+        }
+      }, {
+        key: "getTrainListData",
+        value: function getTrainListData() {
+          return this.httpClient.get("".concat(this.API_URL, "/getAllTrains"), httpOptions);
         }
       }]);
 
